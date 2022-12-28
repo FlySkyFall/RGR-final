@@ -1,0 +1,72 @@
+.container {
+    display: inline-block;
+}
+
+.row {
+    text-align: center;
+}
+
+.Title {
+    font-family: 'Open Sans', 'sans-serif';
+}
+
+.item {
+    border: solid;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    background-color: rgb(112, 131, 131);
+}
+
+.line {
+    margin: 20px 0;
+    padding: 0;
+    height: 0;
+    border: none;
+    border-top: 1px solid #333;
+}
+
+.multiline {
+    margin: 20px 0;
+    padding: 0;
+    height: 20px;
+    border: none;
+    color: #333;
+    background-image: linear-gradient(currentColor, currentColor 33.33%, transparent 33.33%, transparent 100%);
+    background-size: 100% 3px;
+}
+
+.color {
+    margin: 20px 0;
+    padding: 0;
+    height: 0;
+    border: none;
+    border-top: 2px solid rgb(3, 252, 45);
+    border-bottom: 2px solid rgb(246, 250, 4);
+}
+
+.multicolor {
+    margin: 20px 0;
+    padding: 0;
+    height: 6px;
+    border: none;
+    border-top: 2px solid rgb(255, 5, 5);
+    border-bottom: 2px solid rgb(132, 0, 255);
+    background: orange;
+}
+
+.gradient {
+    margin: 20px 0;
+    padding: 0;
+    height: 6px;
+    border: none;
+    background: linear-gradient(45deg, rgb(243, 171, 171), rgb(255, 0, 0));
+}
+
+.dashed {
+    margin: 20px 0;
+    padding: 0;
+    height: 0;
+    border: none;
+    border-top: 2px dashed rgb(3, 205, 255);
+}
